@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.HomeBackGround {
+    height: 100vh;
+    background:url(../media/HomeBackGroundImage.JPG) no-repeat center center/cover ;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),url(../media/HomeBackGroundImage.JPG);
+    
+}
+.HomeHeader{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(4, 4, 4);
+}
+.HomeHeader h2{
+    margin-top: 15px;
+}
+.HomeNavigation{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+.HomeNavigation li{
+    color: rgb(0, 0, 0);
+    margin: 15px;
+}
+.HomeNavigation ul{
+    color: rgb(1, 1, 1);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* .HomeSection{
+    
+} */
+.HomeSection h1{
+    color: rgb(6, 6, 6);
+    display: flex;
+    padding: 60px 0px 0px 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.AboutBackGround{
+    height: 100vh;
+    background:url(../media/AboutBackGround.JPG) no-repeat center center/cover ;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/AboutBackGround.JPG);
+}
+.AboutBackGround p{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    padding: 100px;
+
+}
+.SkillsMain{
+    background: rgb(249,244,246);
+    background: radial-gradient(circle, rgba(249,244,246,1) 0%, rgba(131,139,140,1) 100%);
+    height: 100vh;
+    color:rgb(0, 0, 0);
+}
+.skillDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.SkillsMain h1,h2{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+.skillsli{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #cec9be;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skillsli_1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #cec9be;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.InternshipBackGround{
+    height: 100vh;
+    background:url(../media/internshipBackGroundImage.jpg) no-repeat center center/cover ;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/internshipBackGroundImage.jpg);
+
+}
+.InternshipBackGround h1{
+    color: white;
+    display: flex;
+    padding: 60px 0px 0px 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.internshipsection{
+    display: flex;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.internshipsection img{
+    width: 200px;
+    height: 200px;
+}
+.ProjectsBackGround{
+    height: 100vh;
+    background:url(../media/BirdRaghavaImage.jpeg) no-repeat center center/cover ;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/BirdRaghavaImage.jpeg);
+    color: white;
+
+}
+.certificationsMain{
+    background: rgb(249,244,246);
+    background: radial-gradient(circle, rgba(249,244,246,1) 0%, rgba(131,139,140,1) 100%);
+    height: 100vh;
+    color:rgb(0, 0, 0);
+}
+.certificationImage{
+    display: flex;
+    height: 80vh;
+    justify-content: space-evenly;
+    border-radius: 3px;
+}
+.FooterMain{
+    background: radial-gradient(circle, rgb(66, 71, 75) 0%, rgb(29, 30, 30) 100%);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Footerul1{
+    list-style: none;
+    margin: 10px;
+
+}
+.Footerul2{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+}
